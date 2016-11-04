@@ -8,6 +8,8 @@ public class TalkRecordBean {
 
     private String tvName,tvNum,tvYear;
 
+    public TalkRecordBean() {
+    }
 
     public TalkRecordBean(String tvName, String tvNum, String tvYear) {
         this.tvName = tvName;

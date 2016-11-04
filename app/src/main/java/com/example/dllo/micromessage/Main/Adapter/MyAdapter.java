@@ -32,7 +32,9 @@ public class MyAdapter extends FragmentPagerAdapter{
         return data.size();
     }
 
-    @Override
+
+
+       @Override
     public CharSequence getPageTitle(int position) {
         return title[position];
     }
