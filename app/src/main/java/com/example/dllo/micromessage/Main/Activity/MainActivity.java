@@ -9,6 +9,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import com.example.dllo.micromessage.Main.Adapter.MyAdapter;
 import com.example.dllo.micromessage.Main.Fragment.FragmentFirst;
+import com.example.dllo.micromessage.Main.Fragment.FragmentFouth;
 import com.example.dllo.micromessage.Main.Fragment.FragmentThird;
 import com.example.dllo.micromessage.Main.Fragment.SecondFragment;
 import com.example.dllo.micromessage.R;
@@ -41,7 +42,7 @@ private ViewPager vp;
         data.add(new FragmentFirst());
         data.add(new SecondFragment());
         data.add(new FragmentThird());
-        data.add(new FragmentFirst());
+        data.add(new FragmentFouth());
 
         MyAdapter myAdapter=new MyAdapter(getSupportFragmentManager(),data);
         vp.setAdapter(myAdapter);
